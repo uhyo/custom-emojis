@@ -1,0 +1,15 @@
+.emoji-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-auto-columns: auto;
+  grid-auto-flow: row;
+  gap: 16px;
+}
+
+.emoji {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
