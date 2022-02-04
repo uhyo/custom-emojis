@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>custom-emoji gallery</title>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@uhyo_" />
+    <meta property="og:url" content="{{siteUrl}}" />
+    <meta property="og:title" content="custom-emoji gallery" />
+    <meta property="og:description" content="Emojis that enriches your Slack experience" />
+    <meta property="og:image" content="{{siteUrl}}/ogp/ogp.png" />
+    <style>
+      {% include "css.css" %}
+    </style>
+  </head>
+  <body>
+    <h1>custom-emoji gallery</h1>
+    <p>These are custom emojis that enriches your Slack experience.</p>
+    <p>
+      <a id="download-link" download href="archive/emoji-png.zip">Download all emojis</a>
+      <label class="download-type">
+        <input id="download-png" type="checkbox" checked>
+        PNG
+      </label>
+      <label class="download-type">
+        <input id="download-svg" type="checkbox">
+        SVG
+      </label>
+    </p>
+    <div class="emoji-list">
+      {% for emoji in emojis.emojis %}
+        <div class="emoji">
+          <b>{{emoji.name | replace("_", "<wbr>_") | safe}}</b>
+          <img src="{{emoji.url}}" alt="{{emoji.name}}" width="128" height="128">
+        </div>
+      {% endfor %}
+    </div>
+    <h2>License</h2>
+    <p>This work is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.</p>
+    <p>This work is based on <a href="https://twemoji.twitter.com/">Twemoji</a>.</p>
+    <h2>References</h2>
+    <p><a href="https://github.com/uhyo/custom-emojis">GitHub repository</a></p>
+    <p>Contribution is welcome!</p>
+    <script type="module">{% include "download-link.js" %}</script>
+  </body>
+</html>

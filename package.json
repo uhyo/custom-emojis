@@ -1,0 +1,25 @@
+{
+  "name": "custom-emoji",
+  "version": "1.0.0",
+  "description": "Custom emojis we find useful on Slack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uhyo/custom-emojis.git"
+  },
+  "keywords": [],
+  "author": "uhyo <uhyo@uhy.ooo>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uhyo/custom-emojis/issues"
+  },
+  "homepage": "https://github.com/uhyo/custom-emojis#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "prettier": "^2.5.1"
+  }
+}
