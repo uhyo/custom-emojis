@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "eleventy",
     "serve": "eleventy --serve"
   },
   "repository": {
@@ -20,6 +21,9 @@
   "homepage": "https://github.com/uhyo/custom-emojis#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
-    "prettier": "^2.5.1"
+    "clean-css": "^5.2.4",
+    "html-minifier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "terser": "^5.10.0"
   }
 }

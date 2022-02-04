@@ -10,9 +10,10 @@
     <meta property="og:title" content="custom-emoji gallery" />
     <meta property="og:description" content="Emojis that enriches your Slack experience" />
     <meta property="og:image" content="{{siteUrl}}/ogp/ogp.png" />
-    <style>
+    {% set css %}
       {% include "css.css" %}
-    </style>
+    {% endset %}
+    <style>{{css | cssmin | safe}}</style>
   </head>
   <body>
     <h1>custom-emoji gallery</h1>
@@ -42,6 +43,9 @@
     <h2>References</h2>
     <p><a href="https://github.com/uhyo/custom-emojis">GitHub repository</a></p>
     <p>Contribution is welcome!</p>
-    <script type="module">{% include "download-link.js" %}</script>
+    {% set downloadLinkJs %}
+      {% include "download-link.js" %}
+    {% endset %}
+    <script type="module">{{ downloadLinkJs | jsmin | safe }}</script>
   </body>
 </html>
