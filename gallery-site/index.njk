@@ -11,6 +11,17 @@
   <body>
     <h1>custom-emoji gallery</h1>
     <p>These are custom emojis that enriches your Slack experience.</p>
+    <p>
+      <a id="download-link" download href="archive/emoji-png.zip">Download all emojis</a>
+      <label class="download-type">
+        <input id="download-png" type="checkbox" checked>
+        PNG
+      </label>
+      <label class="download-type">
+        <input id="download-svg" type="checkbox">
+        SVG
+      </label>
+    </p>
     <div class="emoji-list">
       {% for emoji in emojis.emojis %}
         <div class="emoji">
@@ -25,5 +36,6 @@
     <h2>References</h2>
     <p><a href="https://github.com/uhyo/custom-emojis">GitHub repository</a></p>
     <p>Contribution is welcome!</p>
+    <script type="module">{% include "download-link.js" %}</script>
   </body>
 </html>

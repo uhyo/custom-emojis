@@ -16,6 +16,7 @@ module.exports = async () => {
       }
     })
   return {
+    emojisDir,
     emojis
   }
 }
