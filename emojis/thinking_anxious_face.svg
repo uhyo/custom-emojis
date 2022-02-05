@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="682.66998"
+   inkscape:export-xdpi="682.66998"
+   inkscape:export-filename="/Users/JP25309/personal/custom-emoji/emojis/thinking_anxious_face.png"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="thinking_anxious_face.svg"
+   id="svg847"
+   version="1.1"
+   viewBox="0 0 36 36">
+  <metadata
+     id="metadata853">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs851" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg847"
+     inkscape:window-maximized="1"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:cy="40.036263"
+     inkscape:cx="-98.293833"
+     inkscape:zoom="1.6425501"
+     showgrid="false"
+     id="namedview849"
+     inkscape:window-height="1035"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <path
+     id="path833"
+     d="M36 18c0 9.941-8.059 18-18 18-9.94 0-18-8.059-18-18C0 8.06 8.06 0 18 0c9.941 0 18 8.06 18 18"
+     fill="#FFCC4D" />
+  <path
+     id="path839"
+     d="m 22.800089,23.26043 c -0.011,-0.044 -1.145,-4.379 -5.485,-4.379 -4.34,0 -5.474,4.335 -5.484,4.379 -0.053,0.213 0.043,0.431 0.231,0.544 0.187,0.112 0.433,0.086 0.596,-0.06 0.01,-0.008 1.014,-0.863 4.657,-0.863 3.59,0 4.617,0.83 4.656,0.863 0.095,0.09 0.219,0.137 0.344,0.137 0.084,0 0.169,-0.021 0.246,-0.064 0.196,-0.112 0.294,-0.339 0.239,-0.557 z"
+     fill="#664500" />
+  <path
+     id="path843"
+     d="M18 11c8.749 0 16.033 4.509 17.656 10.484.222-1.128.344-2.292.344-3.484 0-9.94-8.059-18-18-18C8.06 0 0 8.06 0 18c0 1.192.123 2.356.344 3.484C1.967 15.509 9.252 11 18 11z"
+     fill="#BDDDF4" />
+  <path
+     style="fill:#65471b;fill-opacity:1"
+     id="path892"
+     d="m 6.1076233,7.2645741 c -0.552,0 -1,-0.448 -1,-1 0,-0.5520002 0.448,-1.0000002 1,-1.0000002 5.0829997,0 5.9959997,-3.12 6.0329997,-3.253 0.145,-0.528 0.69,-0.848 1.219,-0.709 0.53,0.139 0.851,0.673 0.718,1.205 -0.049,0.194 -1.266,4.7570002 -7.9699997,4.7570002 z" />
+  <path
+     style="fill:#65471b;fill-opacity:1"
+     id="path845"
+     d="m 30,11.085202 c -5.554,0 -7.802,-4.3670002 -7.895,-4.5530002 -0.247,-0.494 -0.047,-1.095 0.447,-1.342 0.492,-0.247 1.092,-0.048 1.34,0.443 0.075,0.146 1.821,3.452 6.108,3.452 0.553,0 1,0.448 1,1.0000002 0,0.552 -0.447,1 -1,1 z" />
+  <ellipse
+     id="ellipse859"
+     ry="2.6559999"
+     rx="2.125"
+     cy="11.192455"
+     cx="11.692991"
+     fill="#65471b" />
+  <ellipse
+     id="ellipse861"
+     ry="2.6559999"
+     rx="2.125"
+     cy="12.254456"
+     cx="22.948992"
+     fill="#65471b" />
+  <path
+     id="path863"
+     d="m 15.419498,35.167456 c 0,0 1.265,-0.411 1.429,-1.352 0.173,-0.972 -0.624,-1.167 -0.624,-1.167 0,0 1.041,-0.208 1.172,-1.376 0.123,-1.101 -0.861,-1.363 -0.861,-1.363 0,0 0.97,-0.4 1.016,-1.539 0.038,-0.959 -0.995,-1.428 -0.995,-1.428 0,0 5.038,-1.221 5.556,-1.341 0.516,-0.12 1.32,-0.615 1.069,-1.694 -0.249,-1.08 -1.204,-1.118 -1.697,-1.003 -0.494,0.115 -6.744,1.566 -8.9,2.068 l -1.439,0.334 c -0.54,0.127 -0.785,-0.11 -0.404,-0.512 0.508,-0.536 0.833,-1.129 0.946,-2.113 0.119,-1.035 -0.232,-2.313 -0.433,-2.809 -0.374,-0.921 -1.005,-1.649 -1.7340001,-1.899 -1.137,-0.39 -1.9450002,0.321 -1.5420002,1.561 0.6040002,1.854 0.208,3.375 -0.833,4.293 -2.449,2.157 -3.588,3.695 -2.83,6.973 0.828,3.575 4.3770002,5.876 7.9520003,5.048 z"
+     fill="#f19020" />
+  <path
+     style="stroke-width:0.725561"
+     id="path841"
+     d="m 7.8475336,19.345291 c 0,2.003999 -1.6238044,3.627803 -3.6278026,3.627803 -2.0039982,0 -3.62780274,-1.623804 -3.62780274,-3.627803 0,-2.003998 2.90224214,-7.255605 3.62780274,-7.255605 0.7255605,0 3.6278026,5.251607 3.6278026,7.255605 z"
+     fill="#5dadec" />
+</svg>
