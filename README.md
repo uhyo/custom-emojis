@@ -9,9 +9,11 @@ Custom emojis we find useful on Slack.
 | ![thinking_sleep](emojis/thinking_sleep.png) | ![thinking_skull](emojis/thinking_skull.png) | ![thinking_eyes](emojis/thinking_eyes.png) |
 |                thinking_sleep                |                thinking_skull                |               thinking_eyes                |
 
-## Contribution
+## Contributing
 
 Welcome
+
+**License Agreement**: by submitting your work to this repository, you agree to license it under CC-BY 4.0.
 
 ## License & Attributon
 
