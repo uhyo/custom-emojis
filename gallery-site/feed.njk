@@ -1,0 +1,27 @@
+---
+permalink: "feed.xml"
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>{{siteUrl}}/feed.xml</id>
+  <title>custom-emoji gallery</title>
+  <link href="{{siteUrl}}/feed.xml" rel="self" />
+  <link href="{{siteUrl}}" />
+  <author>
+    <name>uhyo</name>
+  </author>
+  <updated>{{ emojis.history | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  {% for update in emojis.history %}
+    <entry>
+      <id>{{ siteUrl }}{{ update.url }}#{{ update.hash }}</id>
+      <link href="{{ siteUrl }}" />
+      <title>{{ update.emojiName }}</title>
+      <updated>{{ update.date | dateToRfc3339 }}</updated>
+      <content type="text">{{ update.emojiName }} was {%
+        if update.type === "add" %}added{%
+        elif update.type === "modify" %}updated{%
+        endif %}!</content>
+      {# <icon>{{ siteUrl }}{{ update.url }}</icon> #}
+    </entry>
+  {% endfor %}
+</feed>

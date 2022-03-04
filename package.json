@@ -21,6 +21,7 @@
   "homepage": "https://github.com/uhyo/custom-emojis#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
     "clean-css": "^5.2.4",
     "html-minifier": "^4.0.0",
     "prettier": "^2.5.1",

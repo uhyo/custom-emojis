@@ -1,8 +1,10 @@
 const htmlmin = require("html-minifier");
 const CleanCSS = require("clean-css");
 const { minify } = require("terser");
+const pluginRss = require('@11ty/eleventy-plugin-rss')
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addPassthroughCopy("emojis/*.png")
   eleventyConfig.addPassthroughCopy("ogp/ogp.png")
