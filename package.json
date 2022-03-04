@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "eleventy",
+    "build-cloudflare-pages": "git fetch --unshallow && npm run build",
     "serve": "eleventy --serve"
   },
   "repository": {
