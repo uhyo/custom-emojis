@@ -17,11 +17,13 @@ permalink: "feed.xml"
       <link href="{{ siteUrl }}" />
       <title>{{ update.emojiName }}</title>
       <updated>{{ update.date | dateToRfc3339 }}</updated>
-      <content type="text">{{ update.emojiName }} was {%
-        if update.type === "add" %}added{%
-        elif update.type === "modify" %}updated{%
-        endif %}!</content>
-      {# <icon>{{ siteUrl }}{{ update.url }}</icon> #}
+      <content type="html">
+        <![CDATA[<p><img src="{{ siteUrl }}{{ update.url }}"></p><p>{{ update.emojiName }} was {%
+          if update.type === "add" %}added{%
+          elif update.type === "modify" %}updated{%
+          endif %}!</p>
+        ]]>
+      </content>
     </entry>
   {% endfor %}
 </feed>
