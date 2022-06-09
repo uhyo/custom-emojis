@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="682.66998"
+   inkscape:export-xdpi="682.66998"
+   inkscape:export-filename="/Users/JP25309/personal/custom-emoji/emojis/slightly_smiling_fearful.png"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="slightly_smiling_fearful.svg"
+   id="svg843"
+   version="1.1"
+   viewBox="0 0 36 36">
+  <metadata
+     id="metadata849">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs847" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg843"
+     inkscape:window-maximized="1"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:cy="0.036644194"
+     inkscape:cx="31.991796"
+     inkscape:zoom="3.2851003"
+     showgrid="false"
+     id="namedview845"
+     inkscape:window-height="1035"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     id="path833"
+     d="M36 18c0 9.941-8.059 18-18 18-9.94 0-18-8.059-18-18C0 8.06 8.06 0 18 0c9.941 0 18 8.06 18 18"
+     fill="#FFCC4D" />
+  <path
+     id="path835"
+     d="M18 11c8.749 0 16.033 4.509 17.656 10.484.222-1.128.344-2.292.344-3.484 0-9.94-8.059-18-18-18C8.06 0 0 8.06 0 18c0 1.192.123 2.356.344 3.484C1.967 15.509 9.252 11 18 11z"
+     fill="#BDDDF4" />
+  <path
+     id="path853"
+     d="m 10.62708,23.580878 c 0.045,0.179 1.168,4.379 7.485,4.379 6.318,0 7.44,-4.2 7.485,-4.379 0.055,-0.217 -0.043,-0.442 -0.237,-0.554 -0.195,-0.111 -0.439,-0.078 -0.6,0.077 -0.019,0.019 -1.954,1.856 -6.648,1.856 -4.694,0 -6.63,-1.837 -6.648,-1.855 -0.096,-0.095 -0.224,-0.145 -0.352,-0.145 -0.084,0 -0.169,0.021 -0.246,0.064 -0.196,0.112 -0.294,0.339 -0.239,0.557 z"
+     fill="#664500" />
+  <ellipse
+     id="ellipse855"
+     ry="3.5"
+     rx="2.5"
+     cy="13.459878"
+     cx="12.11208"
+     fill="#664500" />
+  <ellipse
+     id="ellipse857"
+     ry="3.5"
+     rx="2.5"
+     cy="13.459878"
+     cx="24.11208"
+     fill="#664500" />
+  <path
+     d="M 12.111328 9.9589844 A 2.5 3.5 0 0 0 9.7128906 12.470703 C 11.079048 11.956922 12.546141 11.567884 14.089844 11.320312 A 2.5 3.5 0 0 0 12.111328 9.9589844 z M 24.111328 9.9589844 A 2.5 3.5 0 0 0 22.115234 11.353516 C 23.674176 11.617449 25.154084 12.026887 26.527344 12.5625 A 2.5 3.5 0 0 0 24.111328 9.9589844 z "
+     style="mix-blend-mode:normal;fill:#44310b;fill-opacity:1"
+     id="path873" />
+</svg>
